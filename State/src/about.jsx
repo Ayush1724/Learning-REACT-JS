@@ -19,7 +19,7 @@ function About(){
     }
 return(
     <>
-    <div style={{height:"100vh",backgroundColor:color}}>
+    <div style={{backgroundColor:color}}>
     <h1>About {ar.name} {ar.contact}</h1>
     <button onClick={fun}>Change object</button>
     <h1>{arr[0]} </h1>
