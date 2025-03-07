@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Myimg from "./myimg"
 
 function Neww(){
     let[st,setSt]=useState(true)
@@ -17,6 +18,8 @@ function Neww(){
         <h1>{num}</h1>
         <button onClick={()=>setNum(num+1)}>+</button>
         <button onClick={decrement}>-</button>
+        <br /><br />
+        <Myimg/>
         </>
     )
 }
