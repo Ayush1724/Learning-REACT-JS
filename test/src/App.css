@@ -40,18 +40,31 @@
 .read-the-docs {
   color: #888;
 } */
-.ex{
-  background-color: red;
-  color: white;
-  padding: 20px;
-}
-.nav{
-  background-color: orange;
-  color: aqua;
+ .sec1{
   display: flex;
-  justify-content: center;
+  background-color: aqua;
+  justify-content: space-between;
+ }
+.sec1 nav{
+  display: flex;
+  justify-content: space-between;
 }
-.im{
+.ul1{
   display: flex;
   gap: 30px;
+  list-style: none;
+}
+.sec2{
+  display: flex;
+}
+.sec3 h1{
+  padding: 20;
+}
+.sec4 footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+}
+.sec4 ul{
+  list-style: none;
 }
