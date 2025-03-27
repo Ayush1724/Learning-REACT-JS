@@ -14,6 +14,7 @@ function App() {
   function finalsubmit(e){
     e.preventDefault()
     console.log(frmdata)
+    localStorage.setItem("userdata",JSON.stringify(frmdata))
   }
 
   return (
